@@ -41,9 +41,9 @@ There are three models that I will focus more.
 
 CodeLlama is a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 34 billion parameters, the advantage of this model is that can run on a simple laptop not high end with a gpu.
 
-FLAN-T5 was released in the paper Scaling Instruction-Finetuned Language Models - it is *an enhanced version of T5 that has been finetuned in a mixture of tasks*. Flan-T5 is released with different sizes: Small, Base, Large, XL and XXL. XXL is the biggest version of Flan-T5, containing 11B parameters
+FLAN-T5 is a pre-trained encoder-decoder model that can perform various text-to-text tasks, It is based on T5, but outperforms it on a large variety of tasks.It is multilingual and uses instruction fine-tuning to improve generalization and usability. FLAN-T5 is intended to be used as a conversational AI assistant that can answer questions, provide explanations, generate text, and engage in dialogue Flan-T5 is released with different sizes: Small, Base, Large, XL and XXL. XXL is the biggest version of Flan-T5, containing 11B parameters
 
-GPT-J 6B is a transformer model trained using Ben Wang's [Mesh Transformer JAX](https://github.com/kingoflolz/mesh-transformer-jax/). "GPT-J" refers to the class of model, while "6B" represents the number of trainable
+‍GPT-J-6B is an open source, autoregressive language model created by a group of researchers called [EleutherAI](https://www.eleuther.ai/). It’s one of the most advanced alternatives to [OpenAI’s](https://openai.com/) GPT-3 and performs well on a wide array of natural language tasks such as chat, summarization, and question answering, to name a few
 
 ## Step 1 . Setup Environment
 
